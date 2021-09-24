@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ButtonOne : MonoBehaviour
 {
-    public GameObject text;
-    public GameObject mainScreen;
+    public GameObject text { get; private set; }
+    public GameObject mainScreen { get; private set; }
 
     public virtual void ClickMe()
     {
